@@ -5,7 +5,7 @@ This is a project that shows the statistical data of Covid-19 virus among severa
 
 
 
-to download debug apk [click here ](https://drive.google.com/file/d/13SqLj1HurrQuR69d8U9avydoVqALcNfk/view?usp=sharing)
+To download debug apk [click here ](https://drive.google.com/file/d/13SqLj1HurrQuR69d8U9avydoVqALcNfk/view?usp=sharing)
 
 
 
