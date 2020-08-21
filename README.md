@@ -1,4 +1,12 @@
-# eLibrabryapp
+# Covid -19 Tracker
+
+
+This is a project that shows the statistical data of Covid-19 virus among several countries and the accommulted estimate world-wide.
+Demo is shown below
+
+
+
+
 
 A new Flutter project.
 
