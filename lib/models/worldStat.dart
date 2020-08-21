@@ -1,22 +1,3 @@
-import 'package:http/http.dart' as http;
-import 'dart:async';
-import 'dart:convert';
-
-final String urlForWorld =
-    "https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php";
-
-Future<WorldCases> fetchWorldCases() async {
-  final response = await http.get(urlForWorld, headers: {
-    'x-rapidapi-host': "coronavirus-monitor.p.rapidapi.com",
-    'x-rapidapi-key': "d5c4f39016msh79896141c050090p15455cjsne094ffcef69c"
-  });
-  if (response.statusCode == 200) {
-    return WorldCases.fromJson(json.decode(response.body));
-  } else {
-    throw Exception('Failed to load countries');
-  }
-}
-
 class WorldCases {
   String totalCases;
   String newCases;
